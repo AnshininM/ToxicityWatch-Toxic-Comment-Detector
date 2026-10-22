@@ -1,0 +1,40 @@
+{
+  "dataset": "SetFit/toxic_conversations",
+  "source_url": "https://huggingface.co/datasets/SetFit/toxic_conversations",
+  "publisher": "Hugging Face dataset repository",
+  "configuration": "default",
+  "published_splits": [
+    "train",
+    "test"
+  ],
+  "download_date_utc": "2026-10-22T15:02:33.226625+00:00",
+  "license": "Not yet verified",
+  "backup_used": false,
+  "text_column": "text",
+  "numeric_label_column": "label",
+  "human_readable_label_column": "label_text",
+  "files": {
+    "train": {
+      "filename": "source_train.parquet",
+      "rows": 1754874,
+      "columns": [
+        "text",
+        "label",
+        "label_text",
+        "source_split"
+      ],
+      "size_bytes": 354521605
+    },
+    "test": {
+      "filename": "source_test.parquet",
+      "rows": 50000,
+      "columns": [
+        "text",
+        "label",
+        "label_text",
+        "source_split"
+      ],
+      "size_bytes": 10086687
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "test_samples": 50000,
+  "accuracy": 0.85254,
+  "precision_toxic": 0.222528810258075,
+  "recall_toxic": 0.34673748103186647,
+  "macro_f1": 0.594527758061593
+}

@@ -1,0 +1,14 @@
+{
+  "vocab_size": 20000,
+  "d_model": 128,
+  "nhead": 4,
+  "num_layers": 2,
+  "max_length": 128,
+  "num_classes": 2,
+  "dropout": 0.2,
+  "batch_size": 32,
+  "learning_rate": 0.0002,
+  "best_validation_macro_f1": 0.5993067072301979,
+  "epochs_completed": 4,
+  "seed": 42
+}
